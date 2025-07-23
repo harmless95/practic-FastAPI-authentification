@@ -1,0 +1,19 @@
+[project]
+name = "authentification-in-fastapi"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Vitaly Zakharov",email = "zaharof1995@yandex.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+]
+
+[tool.poetry]
+packages = [{include = "authentification_in_fastapi", from = "src"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
