@@ -1,5 +1,5 @@
 [project]
-name = "authentification-in-fastapi"
+name = "authentification_in_fastapi"
 version = "0.1.0"
 description = ""
 authors = [
@@ -8,10 +8,11 @@ authors = [
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
+    "fastapi (>=0.116.1,<0.117.0)"
 ]
 
 [tool.poetry]
-packages = [{include = "authentification_in_fastapi", from = "src"}]
+packages = [{include = "authentification_in_fastapi"}]
 
 
 [build-system]
